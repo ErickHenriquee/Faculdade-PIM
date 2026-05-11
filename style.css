@@ -28,7 +28,7 @@ a.externo::after{
     content: "\00A0\1F517";
 }
 body{
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
+    background-color: #1E1E1E;
     font-family: var(--fonte-padrão);
     padding: 5px;
     
@@ -41,16 +41,17 @@ main{
     padding: 20px;
     
     background-color: var(--cor3);
-    border-radius: 10px;
+    border-radius: 15px;
     box-shadow: 6px 6px 0px rgba(0, 0, 0, 0.24);
 }
 header{
-   background-image: linear-gradient(to bottom, var(--cor4), var(--cor3));
+   background-image: linear-gradient(to bottom, var(--cor5), var(--cor3));
    min-height: 150px;
    padding-top: 40px;
 
 }
 header > h1{
+    color: var(--cor3);
     font-family: var(--font-titulo);
     text-align: center;
     font-size: 2.3em;
@@ -72,7 +73,7 @@ nav{
     
 }
 nav > a{
-    color: var(--cor4);
+    color: var(--cor5);
     padding: 10px;
     border-radius: 15px;
     text-decoration: underline;
@@ -89,7 +90,7 @@ section {
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
-    padding: 10px;
+    padding: 20px 40px;
     
 }
 section p{
@@ -101,9 +102,9 @@ section p{
     padding: 10px;
 }
 div.loc{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     margin: 0px -20px 30px -20px;
-    padding: 20px;
+    padding: 20px 40px;
     padding-bottom: 40%;
     position: relative;
 }
@@ -121,7 +122,7 @@ article p{
     margin: 10px;   
 }
 article a{
-    color: var(--cor4);
+    color: var(--cor5);
     font-family: var(--font-destaque);
     text-align: center;
     font-size: 0.8em;
