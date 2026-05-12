@@ -9,11 +9,10 @@
     font-style: normal;
     }
 :root{
-    --cor0: #C7AA87;
+    --cor0: #8a7a5a;
     --cor1: #47271A;
-    --cor2: #B80006;
     --cor3: #FFF6F2;
-    --cor4: #365EBA;
+    --cor4: #A9A9A9;
     --cor5: black;
 
     --fonte-padrão:  Georgia, 'Times New Roman', Times, serif; 
@@ -28,7 +27,7 @@ a.externo::after{
     content: "\00A0\1F517";
 }
 body{
-    background-color: #1E1E1E;
+    background-color: #A9A9A9;
     font-family: var(--fonte-padrão);
     padding: 5px;
     
@@ -51,7 +50,7 @@ header{
 
 }
 header > h1{
-    color: var(--cor3);
+    color: #8a7a5a;
     font-family: var(--font-titulo);
     text-align: center;
     font-size: 2.3em;
@@ -84,7 +83,7 @@ nav > a{
 nav >a:hover{
     background-color: var(--cor5);
     text-decoration: none;
-    color: var(--cor3);
+    color: var(--cor0);
 }
 section {
     font-weight: normal;
@@ -104,7 +103,7 @@ section p{
 div.loc{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     margin: 0px -20px 30px -20px;
-    padding: 20px 40px;
+    padding: 20px;
     padding-bottom: 40%;
     position: relative;
 }
@@ -135,26 +134,62 @@ article a{
 }
 article a:hover{
     background-color: var(--cor5);
-    color: var(--cor3);
+    color: var(--cor0);
     text-decoration: underline;
 }
-aside{
-    background-color: var(--cor0);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281); 
-}
+
 aside h4{
-    background-color: var(--cor1);
-    color: white;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    color: var(--cor0);
 }
-aside > ul{
-    list-style-type: "\2714\00A0\00A0";
-    list-style-position: inside;
+
+.card{
+   background: #1a1a1a;
+   border: 1px solid rgba(201, 168, 76, 0.13);
+   border-radius: 16px;
+   padding: 30px;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+   
 }
+
+.linha{
+    display: flex;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.serviço-info {
+      flex: 1;
+}
+
+.titulo{
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e8e0d4;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descrição{
+    font-size: 13px;
+    color: #8a7a5a;
+}
+
+.preço{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #8a7a5a;
+    opacity: 0.7;
+}
+
 footer{
     background-image: linear-gradient(to right, var(--cor5), var(--cor3));
     color: white;
