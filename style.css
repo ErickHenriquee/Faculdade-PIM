@@ -89,7 +89,7 @@ section {
     font-weight: normal;
     font-size: 1.2em;
     text-align: center;
-    padding: 20px 40px;
+    padding: 10px 20px;
     
 }
 section p{
@@ -103,8 +103,8 @@ section p{
 div.loc{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     margin: 0px -20px 30px -20px;
-    padding: 25px;
-    padding-bottom: 40%;
+    padding: 20px;
+    padding-bottom: 50%;
     position: relative;
 }
 div.loc > iframe{
