@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'barber' ;
-    src: url(fontes/SHADSER.TTF) format(opentype);
+    src: url(fontes/Batuphat\ Script.otf) format(opentype);
     font-weight: normal;
     font-style: normal;
     }
@@ -50,8 +50,8 @@ header{
 
 }
 header > h1{
-    color: var(--cor3);
-    font-family: var(--font-destaque);
+    color: var(--cor0);
+    font-family: var(--font-titulo);
     text-align: center;
     font-size: 2.3em;
     margin-bottom: 20px;
